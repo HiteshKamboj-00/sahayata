@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sahayata - Launchpad for Student-Led Innovations</title>
-    <meta name="description" content="Sahayata connects student entrepreneurs with mentors, investors, and legal experts to transform ideas into investment-ready startups.">
+    <meta name="description"
+        content="Sahayata connects student entrepreneurs with mentors, investors, and legal experts to transform ideas into investment-ready startups.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar">
         <div class="nav-container">
             <a href="#" class="logo">
                 <svg width="32" height="32" viewBox="0 0 24 24" fill="none" class="logo-icon">
-                    <path d="M12 2L2 22h20L12 2z" fill="var(--accent-electric)"/>
-                    <path d="M12 10l-4 8h8l-4-8z" fill="var(--primary-navy)"/>
+                    <path d="M12 2L2 22h20L12 2z" fill="var(--accent-electric)" />
+                    <path d="M12 10l-4 8h8l-4-8z" fill="var(--primary-navy)" />
                 </svg>
                 Sahayata
             </a>
             <div class="nav-links">
+                <a href="#about-us">About Us</a>
                 <a href="#problem">Why Us</a>
                 <a href="#features">Features</a>
                 <a href="#roadmap">Roadmap</a>
@@ -35,7 +39,8 @@
     <header class="hero" id="home">
         <div class="container hero-layout">
             <div class="hero-text fade-in-up">
-                <h1>Transforming Untapped Student Ideas into <span class="text-gradient">Investment-Ready Startups</span></h1>
+                <h1>Transforming Untapped Student Ideas into <span class="text-gradient">Investment-Ready
+                        Startups</span></h1>
                 <p>The ultimate launchpad bridging the gap between innovators, mentors, and collaborators.</p>
                 <div class="cta-group">
                     <button class="btn btn-primary">Start Your Journey</button>
@@ -58,11 +63,30 @@
                     <div class="floating-cards">
                         <div class="float-card c1">Mentorship</div>
                         <div class="float-card c2">Funding</div>
+                        <div class="float-card c3">Collaborators</div>
+                        <div class="float-card c4">Innovators</div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+
+    <!-- About Us -->
+    <section class="about-section scroll-reveal" id="about-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <p>Who we are and what drives us.</p>
+            </div>
+            <div class="about-content glass">
+                <p>Sahayata was born from a simple but powerful idea: <strong>student innovation shouldn't be stifled by
+                        a lack of access</strong>. We are a dedicated launchpad bridging the gap between young
+                    visionaries and industry veterans. By connecting student entrepreneurs with experienced mentors,
+                    investors, and legal experts, we aim to transform raw, untapped ideas into investment-ready startups
+                    that shape the future.</p>
+            </div>
+        </div>
+    </section>
 
     <!-- The Problem -->
     <section class="problem-section scroll-reveal" id="problem">
@@ -181,4 +205,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
