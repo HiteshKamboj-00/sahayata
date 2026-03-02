@@ -304,27 +304,15 @@ h2 {
 }
 
 .c1 {
-  top: 15%;
-  left: 5%;
+  top: 20%;
+  left: 10%;
   animation: float 5s ease-in-out infinite alternate;
 }
 
 .c2 {
   bottom: 20%;
-  right: 5%;
-  animation: float 7s ease-in-out infinite alternate-reverse;
-}
-
-.c3 {
-  top: 25%;
   right: 10%;
-  animation: float 6s ease-in-out infinite alternate 1s;
-}
-
-.c4 {
-  bottom: 15%;
-  left: 15%;
-  animation: float 8s ease-in-out infinite alternate-reverse 0.5s;
+  animation: float 7s ease-in-out infinite alternate-reverse;
 }
 
 @keyframes float {
