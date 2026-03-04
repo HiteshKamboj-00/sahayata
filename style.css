@@ -315,6 +315,18 @@ h2 {
   animation: float 7s ease-in-out infinite alternate-reverse;
 }
 
+.c3 {
+  top: 15%;
+  right: 15%;
+  animation: float 6s ease-in-out infinite alternate;
+}
+
+.c4 {
+  bottom: 15%;
+  left: 15%;
+  animation: float 8s ease-in-out infinite alternate-reverse;
+}
+
 @keyframes float {
   0% {
     transform: translateY(0px) rotate(0deg);
